@@ -50,7 +50,7 @@ ready(function () {
       loadScript(
         "https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"
       ).then(() => {
-        loadScript(`./main.js?site=${site}&bstype=${bstype}`);
+        loadScript(`static/js/main.js?site=${site}&bstype=${bstype}`);
       });
     }
   );
