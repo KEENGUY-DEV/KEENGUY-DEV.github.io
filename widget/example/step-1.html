@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шаг 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section class="step--popup step-1">
+        <div class="step-top-btns">
+            <a class="step-top-back--btn" href="step-1.html">
+                < назад</a>
+                    <div class="step-close-cross">
+                        <button class="step-close-cross--btn mfp-close" type="button" onclick="parent.closePopup()">
+                    <img src="images/cross.svg" alt="">
+                </button>
+                    </div>
+        </div>
+        <div class="container">
+            <div class="step-content">
+                <h1 class="step-1__title step-title">
+                    Бронирование
+                </h1>
+                <div class="step-1__subtitle step-subtitle">Маршрут “Тренировочный”</div>
+                <div class="step-1__subtitle-wrapper">
+                    <div class="step-1__subtitle step-subtitle step-1__subtitle--outline">Выбери удобный адрес</div>
+                </div>
+                <div class="step-1__addresses">
+                    <div class="step-1__address">
+                        <div class="step-1__address-inner">
+                            <input class="step-1__address-checkbox" type="checkbox" id="step-1__address--1" name="scales" checked>
+                            <label class="step-1__address-title" for="step-1__address--1">МО. д. Коломна,  ул. Смирнова, д.4 (40 км от МКАД)</label>
+                            <div class="step-1__address-content">
+                                <div class="step-1__address-time">
+                                    <p class="step-1__address-time__item-1">ПН - ПТ: 10:00 - 19:00</p>
+                                    <p class="step-1__address-time__item-2">СБ - ВС: 09:00 - 18:00</p>
+                                </div>
+                                <div class="step-1__address-map step-map--before">
+                                    <img class="step-1__address-map--element" src="images/bron-map.jpg" alt="map">
+                                    <span class="step-1__address-map-title step-map--span">МО. д. Коломна,  ул. Смирнова, д.4 (40 км от МКАД)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-1__address">
+                        <div class="step-1__address-inner">
+                            <input class="step-1__address-checkbox" type="checkbox" id="step-1__address--2" name="scales">
+                            <label class="step-1__address-title" for="step-1__address--2">МО. д. Щедрино,  Гаражный кооператив (20 км от МКАД)</label>
+                            <div class="step-1__address-content">
+                                <div class="step-1__address-time">
+                                    <p class="step-1__address-time__item-1">ПН - ПТ: 10:00 - 19:00</p>
+                                    <p class="step-1__address-time__item-2">СБ - ВС: 09:00 - 18:00</p>
+                                </div>
+                                <div class="step-1__address-map step-map--before">
+                                    <img class="step-1__address-map--element" src="images/bron-map.jpg" alt="map">
+                                    <span class="step-1__address-map-title step-map--span">МО. д. Щедрино,  Гаражный кооператив (20 км от МКАД)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-1__address">
+                        <div class="step-1__address-inner">
+                            <input class="step-1__address-checkbox" type="checkbox" id="step-1__address--3" name="scales">
+                            <label class="step-1__address-title" for="step-1__address--3">МО. д. Жданово,  ул. Большое название что переносится (20 км от МКАД)</label>
+                            <div class="step-1__address-content">
+                                <div class="step-1__address-time">
+                                    <p class="step-1__address-time__item-1">ПН - ПТ: 10:00 - 19:00</p>
+                                    <p class="step-1__address-time__item-2">СБ - ВС: 09:00 - 18:00</p>
+                                </div>
+                                <div class="step-1__address-map step-map--before">
+                                    <img class="step-1__address-map--element" src="images/bron-map.jpg" alt="map">
+                                    <span class="step-1__address-map-title step-map--span">МО. д. Жданово,  ул. Большое название что переносится (20 км от МКАД)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="step-bottom step-1__bottom">
+                <div class="step-bottom-link step-bottom-link--next">
+                    <a href="step-2.html">
+                        <img src="images/next-link--colored.jpg" alt="next button">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-input-spinner@3.0.2/src/bootstrap-input-spinner.min.js "></script>
+    <script src="magnific-popup/jquery.magnific-popup.js "></script>
+    <script src="js/slick.min.js "></script>
+    <script src="js/jquery.fancybox.min.js "></script>
+    <script src="js/main.js "></script>
+</body>
+
+</html>
