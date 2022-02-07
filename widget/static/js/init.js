@@ -44,7 +44,7 @@ ready(function () {
   div.id = "bookpay_root";
   document.body.appendChild(div);
 
-  include_css("https://335e-176-65-34-226.ngrok.io/style.css");
+  include_css("https://keenguy-dev.github.io/widget/static/css/bookpay_widget.css");
   loadScript("https://unpkg.com/react@17/umd/react.production.min.js").then(
     () => {
       loadScript(
