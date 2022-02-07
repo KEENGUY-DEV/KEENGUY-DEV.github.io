@@ -44,13 +44,13 @@ ready(function () {
   div.id = "bookpay_root";
   document.body.appendChild(div);
 
-  include_css("https://335e-176-65-34-226.ngrok.io/style.css");
+  include_css("static/css/style.css");
   loadScript("https://unpkg.com/react@17/umd/react.production.min.js").then(
     () => {
       loadScript(
         "https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"
       ).then(() => {
-        loadScript(`static/js/main.js?site=${site}&bstype=${bstype}`);
+        loadScript(`https://keenguy-dev.github.io/widget/static/js/main.js?site=${site}&bstype=${bstype}`);
       });
     }
   );
